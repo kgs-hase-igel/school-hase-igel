@@ -102,7 +102,7 @@ public class HelperLogic {
         public Move getMove() { return move; }
     }
 
-    public ArrayList<Move> extractFallbackMoves(GameState gameState, int index, ArrayList<Move> possibleMoves) {
+    public ArrayList<Move> extractFallbackMove(GameState gameState, int index, ArrayList<Move> possibleMoves) {
         ArrayList<Move> fallbackMoves = new ArrayList<>();
         Player currentPlayer = gameState.getCurrentPlayer();
 
